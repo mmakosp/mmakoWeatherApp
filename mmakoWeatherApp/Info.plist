@@ -21,5 +21,11 @@
 			</array>
 		</dict>
 	</dict>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>Gives you the best weather in your location</string>
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>Gives you the best weather in your location</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>Gives you the best weather in your location</string>
 </dict>
 </plist>

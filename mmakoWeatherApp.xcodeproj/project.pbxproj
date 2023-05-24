@@ -9,13 +9,26 @@
 /* Begin PBXBuildFile section */
 		E002018E2A1A2D6E005B4059 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E002018D2A1A2D6E005B4059 /* AppDelegate.swift */; };
 		E00201902A1A2D6E005B4059 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E002018F2A1A2D6E005B4059 /* SceneDelegate.swift */; };
-		E00201922A1A2D6E005B4059 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00201912A1A2D6E005B4059 /* ViewController.swift */; };
+		E00201922A1A2D6E005B4059 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00201912A1A2D6E005B4059 /* HomeViewController.swift */; };
 		E00201952A1A2D6E005B4059 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E00201932A1A2D6E005B4059 /* Main.storyboard */; };
 		E00201972A1A2D6F005B4059 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E00201962A1A2D6F005B4059 /* Assets.xcassets */; };
 		E002019A2A1A2D6F005B4059 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E00201982A1A2D6F005B4059 /* LaunchScreen.storyboard */; };
 		E00201A52A1A2D6F005B4059 /* mmakoWeatherAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00201A42A1A2D6F005B4059 /* mmakoWeatherAppTests.swift */; };
 		E00201AF2A1A2D6F005B4059 /* mmakoWeatherAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00201AE2A1A2D6F005B4059 /* mmakoWeatherAppUITests.swift */; };
 		E00201B12A1A2D6F005B4059 /* mmakoWeatherAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00201B02A1A2D6F005B4059 /* mmakoWeatherAppUITestsLaunchTests.swift */; };
+		E00201C02A1A3195005B4059 /* FutureCastTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00201BE2A1A3195005B4059 /* FutureCastTableViewCell.swift */; };
+		E00201C12A1A3195005B4059 /* FutureCastTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E00201BF2A1A3195005B4059 /* FutureCastTableViewCell.xib */; };
+		E070F7AD2A1A84790033CDB8 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E070F7AC2A1A84790033CDB8 /* WeatherModel.swift */; };
+		E070F7B02A1A85380033CDB8 /* WatherDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E070F7AF2A1A85380033CDB8 /* WatherDataSource.swift */; };
+		E070F7B22A1A9D7C0033CDB8 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E070F7B12A1A9D7C0033CDB8 /* Configuration.swift */; };
+		E070F7CA2A1D68750033CDB8 /* HomeTempViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E070F7C92A1D68750033CDB8 /* HomeTempViewModelTests.swift */; };
+		E09FAA1A2A1A39C70062EC4B /* MainTempTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09FAA182A1A39C70062EC4B /* MainTempTableViewCell.swift */; };
+		E09FAA1B2A1A39C70062EC4B /* MainTempTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E09FAA192A1A39C70062EC4B /* MainTempTableViewCell.xib */; };
+		E0CD316E2A1A77CB007FB806 /* CurrentTempTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CD316C2A1A77CB007FB806 /* CurrentTempTableViewCell.swift */; };
+		E0CD316F2A1A77CB007FB806 /* CurrentTempTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0CD316D2A1A77CB007FB806 /* CurrentTempTableViewCell.xib */; };
+		E0F42ECF2A1A3C8500E68FB1 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F42ECD2A1A3C8500E68FB1 /* HomeTableViewController.swift */; };
+		E0F42ED02A1A3C8500E68FB1 /* HomeTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0F42ECE2A1A3C8500E68FB1 /* HomeTableViewController.xib */; };
+		E0F42ED32A1A449400E68FB1 /* HomeTempViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F42ED22A1A449400E68FB1 /* HomeTempViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +52,7 @@
 		E002018A2A1A2D6E005B4059 /* mmakoWeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mmakoWeatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E002018D2A1A2D6E005B4059 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E002018F2A1A2D6E005B4059 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E00201912A1A2D6E005B4059 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E00201912A1A2D6E005B4059 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		E00201942A1A2D6E005B4059 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E00201962A1A2D6F005B4059 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E00201992A1A2D6F005B4059 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +62,19 @@
 		E00201AA2A1A2D6F005B4059 /* mmakoWeatherAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mmakoWeatherAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E00201AE2A1A2D6F005B4059 /* mmakoWeatherAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mmakoWeatherAppUITests.swift; sourceTree = "<group>"; };
 		E00201B02A1A2D6F005B4059 /* mmakoWeatherAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mmakoWeatherAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E00201BE2A1A3195005B4059 /* FutureCastTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutureCastTableViewCell.swift; sourceTree = "<group>"; };
+		E00201BF2A1A3195005B4059 /* FutureCastTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FutureCastTableViewCell.xib; sourceTree = "<group>"; };
+		E070F7AC2A1A84790033CDB8 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		E070F7AF2A1A85380033CDB8 /* WatherDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatherDataSource.swift; sourceTree = "<group>"; };
+		E070F7B12A1A9D7C0033CDB8 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		E070F7C92A1D68750033CDB8 /* HomeTempViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTempViewModelTests.swift; sourceTree = "<group>"; };
+		E09FAA182A1A39C70062EC4B /* MainTempTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTempTableViewCell.swift; sourceTree = "<group>"; };
+		E09FAA192A1A39C70062EC4B /* MainTempTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainTempTableViewCell.xib; sourceTree = "<group>"; };
+		E0CD316C2A1A77CB007FB806 /* CurrentTempTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentTempTableViewCell.swift; sourceTree = "<group>"; };
+		E0CD316D2A1A77CB007FB806 /* CurrentTempTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CurrentTempTableViewCell.xib; sourceTree = "<group>"; };
+		E0F42ECD2A1A3C8500E68FB1 /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
+		E0F42ECE2A1A3C8500E68FB1 /* HomeTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableViewController.xib; sourceTree = "<group>"; };
+		E0F42ED22A1A449400E68FB1 /* HomeTempViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTempViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +125,18 @@
 		E002018C2A1A2D6E005B4059 /* mmakoWeatherApp */ = {
 			isa = PBXGroup;
 			children = (
+				E070F7AE2A1A85080033CDB8 /* DataSource */,
+				E070F7AB2A1A84630033CDB8 /* WeatherModels */,
+				E0F42ED12A1A447800E68FB1 /* ViewModel */,
+				E0F42ECC2A1A3C0B00E68FB1 /* Views */,
+				E00201BD2A1A312F005B4059 /* Cells */,
 				E002018D2A1A2D6E005B4059 /* AppDelegate.swift */,
 				E002018F2A1A2D6E005B4059 /* SceneDelegate.swift */,
-				E00201912A1A2D6E005B4059 /* ViewController.swift */,
 				E00201932A1A2D6E005B4059 /* Main.storyboard */,
 				E00201962A1A2D6F005B4059 /* Assets.xcassets */,
 				E00201982A1A2D6F005B4059 /* LaunchScreen.storyboard */,
 				E002019B2A1A2D6F005B4059 /* Info.plist */,
+				E070F7B12A1A9D7C0033CDB8 /* Configuration.swift */,
 			);
 			path = mmakoWeatherApp;
 			sourceTree = "<group>";
@@ -114,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				E00201A42A1A2D6F005B4059 /* mmakoWeatherAppTests.swift */,
+				E070F7C92A1D68750033CDB8 /* HomeTempViewModelTests.swift */,
 			);
 			path = mmakoWeatherAppTests;
 			sourceTree = "<group>";
@@ -125,6 +157,53 @@
 				E00201B02A1A2D6F005B4059 /* mmakoWeatherAppUITestsLaunchTests.swift */,
 			);
 			path = mmakoWeatherAppUITests;
+			sourceTree = "<group>";
+		};
+		E00201BD2A1A312F005B4059 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E00201BE2A1A3195005B4059 /* FutureCastTableViewCell.swift */,
+				E00201BF2A1A3195005B4059 /* FutureCastTableViewCell.xib */,
+				E09FAA182A1A39C70062EC4B /* MainTempTableViewCell.swift */,
+				E09FAA192A1A39C70062EC4B /* MainTempTableViewCell.xib */,
+				E0CD316C2A1A77CB007FB806 /* CurrentTempTableViewCell.swift */,
+				E0CD316D2A1A77CB007FB806 /* CurrentTempTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		E070F7AB2A1A84630033CDB8 /* WeatherModels */ = {
+			isa = PBXGroup;
+			children = (
+				E070F7AC2A1A84790033CDB8 /* WeatherModel.swift */,
+			);
+			path = WeatherModels;
+			sourceTree = "<group>";
+		};
+		E070F7AE2A1A85080033CDB8 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				E070F7AF2A1A85380033CDB8 /* WatherDataSource.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		E0F42ECC2A1A3C0B00E68FB1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E00201912A1A2D6E005B4059 /* HomeViewController.swift */,
+				E0F42ECD2A1A3C8500E68FB1 /* HomeTableViewController.swift */,
+				E0F42ECE2A1A3C8500E68FB1 /* HomeTableViewController.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E0F42ED12A1A447800E68FB1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E0F42ED22A1A449400E68FB1 /* HomeTempViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,7 +311,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E002019A2A1A2D6F005B4059 /* LaunchScreen.storyboard in Resources */,
+				E00201C12A1A3195005B4059 /* FutureCastTableViewCell.xib in Resources */,
+				E0CD316F2A1A77CB007FB806 /* CurrentTempTableViewCell.xib in Resources */,
+				E0F42ED02A1A3C8500E68FB1 /* HomeTableViewController.xib in Resources */,
 				E00201972A1A2D6F005B4059 /* Assets.xcassets in Resources */,
+				E09FAA1B2A1A39C70062EC4B /* MainTempTableViewCell.xib in Resources */,
 				E00201952A1A2D6E005B4059 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,9 +341,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E00201922A1A2D6E005B4059 /* ViewController.swift in Sources */,
+				E00201922A1A2D6E005B4059 /* HomeViewController.swift in Sources */,
+				E070F7B02A1A85380033CDB8 /* WatherDataSource.swift in Sources */,
+				E00201C02A1A3195005B4059 /* FutureCastTableViewCell.swift in Sources */,
+				E09FAA1A2A1A39C70062EC4B /* MainTempTableViewCell.swift in Sources */,
+				E0CD316E2A1A77CB007FB806 /* CurrentTempTableViewCell.swift in Sources */,
+				E0F42ECF2A1A3C8500E68FB1 /* HomeTableViewController.swift in Sources */,
+				E070F7B22A1A9D7C0033CDB8 /* Configuration.swift in Sources */,
+				E0F42ED32A1A449400E68FB1 /* HomeTempViewModel.swift in Sources */,
 				E002018E2A1A2D6E005B4059 /* AppDelegate.swift in Sources */,
 				E00201902A1A2D6E005B4059 /* SceneDelegate.swift in Sources */,
+				E070F7AD2A1A84790033CDB8 /* WeatherModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +360,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E00201A52A1A2D6F005B4059 /* mmakoWeatherAppTests.swift in Sources */,
+				E070F7CA2A1D68750033CDB8 /* HomeTempViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,6 +536,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -471,6 +564,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
