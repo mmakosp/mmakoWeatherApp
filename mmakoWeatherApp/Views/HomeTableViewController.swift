@@ -22,7 +22,19 @@ class HomeTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupTableView()
+        setUpNavigationItems()
         viewModel.weatherDayData = viewModel.getWeatherDay()
+    }
+    
+    func setUpNavigationItems() {
+        let navigationBar = UINavigationBar(frame: CGRect(x: 0, y: 0, width: view.frame.size.width, height: 44))
+        navigationBar.barTintColor = .white
+        let navigationItem = UINavigationItem(title: "Extended Forecast")
+        let rightBarButton = UIBarButtonItem(title: "Done", style: .done, target: self, action: #selector(doneButtonTapped))
+        navigationItem.rightBarButtonItem = rightBarButton
+        rightBarButton.tintColor = .black
+        navigationBar.items = [navigationItem]
+        view.addSubview(navigationBar)
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -118,6 +130,10 @@ extension HomeTableViewController {
     private func setCellBackground(with hexColor: String, cell: UITableViewCell) {
         let backgroundColor = UIColor(hex: hexColor)
         cell.backgroundColor = backgroundColor
+    }
+    
+    @objc private func doneButtonTapped() {
+        self.dismiss(animated: true)
     }
 }
 

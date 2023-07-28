@@ -14,16 +14,25 @@
 		E00201972A1A2D6F005B4059 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E00201962A1A2D6F005B4059 /* Assets.xcassets */; };
 		E002019A2A1A2D6F005B4059 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E00201982A1A2D6F005B4059 /* LaunchScreen.storyboard */; };
 		E00201A52A1A2D6F005B4059 /* mmakoWeatherAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00201A42A1A2D6F005B4059 /* mmakoWeatherAppTests.swift */; };
-		E00201AF2A1A2D6F005B4059 /* mmakoWeatherAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00201AE2A1A2D6F005B4059 /* mmakoWeatherAppUITests.swift */; };
+		E00201AF2A1A2D6F005B4059 /* MmakoWeatherAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00201AE2A1A2D6F005B4059 /* MmakoWeatherAppUITests.swift */; };
 		E00201B12A1A2D6F005B4059 /* mmakoWeatherAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00201B02A1A2D6F005B4059 /* mmakoWeatherAppUITestsLaunchTests.swift */; };
 		E00201C02A1A3195005B4059 /* FutureCastTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00201BE2A1A3195005B4059 /* FutureCastTableViewCell.swift */; };
 		E00201C12A1A3195005B4059 /* FutureCastTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E00201BF2A1A3195005B4059 /* FutureCastTableViewCell.xib */; };
+		E0089A912A6DE63F004C12D2 /* AppUITestNavigationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0089A902A6DE63F004C12D2 /* AppUITestNavigationHelper.swift */; };
+		E0089A932A6DE838004C12D2 /* NavigationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0089A922A6DE838004C12D2 /* NavigationHelper.swift */; };
 		E070F7AD2A1A84790033CDB8 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E070F7AC2A1A84790033CDB8 /* WeatherModel.swift */; };
 		E070F7B02A1A85380033CDB8 /* WatherDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E070F7AF2A1A85380033CDB8 /* WatherDataSource.swift */; };
 		E070F7B22A1A9D7C0033CDB8 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E070F7B12A1A9D7C0033CDB8 /* Configuration.swift */; };
 		E070F7CA2A1D68750033CDB8 /* HomeTempViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E070F7C92A1D68750033CDB8 /* HomeTempViewModelTests.swift */; };
 		E09FAA1A2A1A39C70062EC4B /* MainTempTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09FAA182A1A39C70062EC4B /* MainTempTableViewCell.swift */; };
 		E09FAA1B2A1A39C70062EC4B /* MainTempTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E09FAA192A1A39C70062EC4B /* MainTempTableViewCell.xib */; };
+		E0A6E9502A72AA4E0036F835 /* UITestVerificationInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A6E94F2A72AA4E0036F835 /* UITestVerificationInterface.swift */; };
+		E0A6E9522A72AA7C0036F835 /* UITestVerificationImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A6E9512A72AA7B0036F835 /* UITestVerificationImplementation.swift */; };
+		E0A6E9542A72AB350036F835 /* UITestConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A6E9532A72AB350036F835 /* UITestConstants.swift */; };
+		E0A6E9572A72E7A00036F835 /* forecastWeather.json in Resources */ = {isa = PBXBuildFile; fileRef = E0A6E9552A72E7A00036F835 /* forecastWeather.json */; };
+		E0A6E9582A72E7A00036F835 /* currentWeather.json in Resources */ = {isa = PBXBuildFile; fileRef = E0A6E9562A72E7A00036F835 /* currentWeather.json */; };
+		E0A6E95C2A73092A0036F835 /* TerminateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A6E95B2A73092A0036F835 /* TerminateHelper.swift */; };
+		E0A6E95E2A730CE50036F835 /* ExtendedWeatherAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A6E95D2A730CE50036F835 /* ExtendedWeatherAppUITests.swift */; };
 		E0CD316E2A1A77CB007FB806 /* CurrentTempTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CD316C2A1A77CB007FB806 /* CurrentTempTableViewCell.swift */; };
 		E0CD316F2A1A77CB007FB806 /* CurrentTempTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0CD316D2A1A77CB007FB806 /* CurrentTempTableViewCell.xib */; };
 		E0F42ECF2A1A3C8500E68FB1 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F42ECD2A1A3C8500E68FB1 /* HomeTableViewController.swift */; };
@@ -60,16 +69,25 @@
 		E00201A02A1A2D6F005B4059 /* mmakoWeatherAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mmakoWeatherAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E00201A42A1A2D6F005B4059 /* mmakoWeatherAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mmakoWeatherAppTests.swift; sourceTree = "<group>"; };
 		E00201AA2A1A2D6F005B4059 /* mmakoWeatherAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mmakoWeatherAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E00201AE2A1A2D6F005B4059 /* mmakoWeatherAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mmakoWeatherAppUITests.swift; sourceTree = "<group>"; };
+		E00201AE2A1A2D6F005B4059 /* MmakoWeatherAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MmakoWeatherAppUITests.swift; sourceTree = "<group>"; };
 		E00201B02A1A2D6F005B4059 /* mmakoWeatherAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mmakoWeatherAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E00201BE2A1A3195005B4059 /* FutureCastTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutureCastTableViewCell.swift; sourceTree = "<group>"; };
 		E00201BF2A1A3195005B4059 /* FutureCastTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FutureCastTableViewCell.xib; sourceTree = "<group>"; };
+		E0089A902A6DE63F004C12D2 /* AppUITestNavigationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUITestNavigationHelper.swift; sourceTree = "<group>"; };
+		E0089A922A6DE838004C12D2 /* NavigationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationHelper.swift; sourceTree = "<group>"; };
 		E070F7AC2A1A84790033CDB8 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
 		E070F7AF2A1A85380033CDB8 /* WatherDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatherDataSource.swift; sourceTree = "<group>"; };
 		E070F7B12A1A9D7C0033CDB8 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
 		E070F7C92A1D68750033CDB8 /* HomeTempViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTempViewModelTests.swift; sourceTree = "<group>"; };
 		E09FAA182A1A39C70062EC4B /* MainTempTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTempTableViewCell.swift; sourceTree = "<group>"; };
 		E09FAA192A1A39C70062EC4B /* MainTempTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainTempTableViewCell.xib; sourceTree = "<group>"; };
+		E0A6E94F2A72AA4E0036F835 /* UITestVerificationInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestVerificationInterface.swift; sourceTree = "<group>"; };
+		E0A6E9512A72AA7B0036F835 /* UITestVerificationImplementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestVerificationImplementation.swift; sourceTree = "<group>"; };
+		E0A6E9532A72AB350036F835 /* UITestConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestConstants.swift; sourceTree = "<group>"; };
+		E0A6E9552A72E7A00036F835 /* forecastWeather.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = forecastWeather.json; sourceTree = "<group>"; };
+		E0A6E9562A72E7A00036F835 /* currentWeather.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = currentWeather.json; sourceTree = "<group>"; };
+		E0A6E95B2A73092A0036F835 /* TerminateHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminateHelper.swift; sourceTree = "<group>"; };
+		E0A6E95D2A730CE50036F835 /* ExtendedWeatherAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtendedWeatherAppUITests.swift; sourceTree = "<group>"; };
 		E0CD316C2A1A77CB007FB806 /* CurrentTempTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentTempTableViewCell.swift; sourceTree = "<group>"; };
 		E0CD316D2A1A77CB007FB806 /* CurrentTempTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CurrentTempTableViewCell.xib; sourceTree = "<group>"; };
 		E0F42ECD2A1A3C8500E68FB1 /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
@@ -153,7 +171,8 @@
 		E00201AD2A1A2D6F005B4059 /* mmakoWeatherAppUITests */ = {
 			isa = PBXGroup;
 			children = (
-				E00201AE2A1A2D6F005B4059 /* mmakoWeatherAppUITests.swift */,
+				E0A6E95A2A7307D10036F835 /* UITestsHelpers */,
+				E0A6E9592A7307C70036F835 /* UITests */,
 				E00201B02A1A2D6F005B4059 /* mmakoWeatherAppUITestsLaunchTests.swift */,
 			);
 			path = mmakoWeatherAppUITests;
@@ -183,9 +202,33 @@
 		E070F7AE2A1A85080033CDB8 /* DataSource */ = {
 			isa = PBXGroup;
 			children = (
+				E0A6E9562A72E7A00036F835 /* currentWeather.json */,
+				E0A6E9552A72E7A00036F835 /* forecastWeather.json */,
 				E070F7AF2A1A85380033CDB8 /* WatherDataSource.swift */,
 			);
 			path = DataSource;
+			sourceTree = "<group>";
+		};
+		E0A6E9592A7307C70036F835 /* UITests */ = {
+			isa = PBXGroup;
+			children = (
+				E00201AE2A1A2D6F005B4059 /* MmakoWeatherAppUITests.swift */,
+				E0A6E95D2A730CE50036F835 /* ExtendedWeatherAppUITests.swift */,
+			);
+			path = UITests;
+			sourceTree = "<group>";
+		};
+		E0A6E95A2A7307D10036F835 /* UITestsHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				E0089A902A6DE63F004C12D2 /* AppUITestNavigationHelper.swift */,
+				E0089A922A6DE838004C12D2 /* NavigationHelper.swift */,
+				E0A6E94F2A72AA4E0036F835 /* UITestVerificationInterface.swift */,
+				E0A6E9512A72AA7B0036F835 /* UITestVerificationImplementation.swift */,
+				E0A6E9532A72AB350036F835 /* UITestConstants.swift */,
+				E0A6E95B2A73092A0036F835 /* TerminateHelper.swift */,
+			);
+			path = UITestsHelpers;
 			sourceTree = "<group>";
 		};
 		E0F42ECC2A1A3C0B00E68FB1 /* Views */ = {
@@ -313,7 +356,9 @@
 				E002019A2A1A2D6F005B4059 /* LaunchScreen.storyboard in Resources */,
 				E00201C12A1A3195005B4059 /* FutureCastTableViewCell.xib in Resources */,
 				E0CD316F2A1A77CB007FB806 /* CurrentTempTableViewCell.xib in Resources */,
+				E0A6E9572A72E7A00036F835 /* forecastWeather.json in Resources */,
 				E0F42ED02A1A3C8500E68FB1 /* HomeTableViewController.xib in Resources */,
+				E0A6E9582A72E7A00036F835 /* currentWeather.json in Resources */,
 				E00201972A1A2D6F005B4059 /* Assets.xcassets in Resources */,
 				E09FAA1B2A1A39C70062EC4B /* MainTempTableViewCell.xib in Resources */,
 				E00201952A1A2D6E005B4059 /* Main.storyboard in Resources */,
@@ -368,8 +413,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E00201AF2A1A2D6F005B4059 /* mmakoWeatherAppUITests.swift in Sources */,
+				E0A6E9542A72AB350036F835 /* UITestConstants.swift in Sources */,
+				E0A6E95C2A73092A0036F835 /* TerminateHelper.swift in Sources */,
+				E0A6E95E2A730CE50036F835 /* ExtendedWeatherAppUITests.swift in Sources */,
+				E00201AF2A1A2D6F005B4059 /* MmakoWeatherAppUITests.swift in Sources */,
+				E0089A932A6DE838004C12D2 /* NavigationHelper.swift in Sources */,
+				E0089A912A6DE63F004C12D2 /* AppUITestNavigationHelper.swift in Sources */,
 				E00201B12A1A2D6F005B4059 /* mmakoWeatherAppUITestsLaunchTests.swift in Sources */,
+				E0A6E9522A72AA7C0036F835 /* UITestVerificationImplementation.swift in Sources */,
+				E0A6E9502A72AA4E0036F835 /* UITestVerificationInterface.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
