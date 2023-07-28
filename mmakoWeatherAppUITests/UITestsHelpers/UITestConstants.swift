@@ -1,7 +1,7 @@
 import XCTest
 
 enum WeatherAppBarCellIdentifier: String {
-    case investDetailsRequestDocIdentifier = "INVEST_DETAILS_REQUEST_DOCUMENT_CELL"
+    case docIdentifier = "DOCUMENT_CELL"
 }
 
 enum WeatherAppButton: String {
